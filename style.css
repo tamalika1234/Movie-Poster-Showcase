@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 15px ;
+}
+
+
+
+.poster-container {
+    
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.poster {
+  background: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+.poster img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.poster:hover img {
+  transform: scale(1.1);
+}
+
+.poster h3 {
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #ff3c00;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff5722;
+}
+
+.heading:hover {
+    color: rgb(0, 0, 255);
+}
